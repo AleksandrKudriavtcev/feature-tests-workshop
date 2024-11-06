@@ -3,6 +3,7 @@ from pytest_bdd import scenarios, given, when, then, parsers
 
 scenarios("features")
 
+
 @given("a cucumber was ordered")
 def order_cucumber():
     # some API call to order a cucumber
