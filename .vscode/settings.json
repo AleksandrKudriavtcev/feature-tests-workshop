@@ -1,0 +1,13 @@
+{
+    "cucumberautocomplete.steps": [
+        "tests/*.py"
+    ],
+    "cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then|cfparse|parse)\\(",
+    "cucumberautocomplete.customParameters": [
+        {
+            "parameter":"\\n{content}",
+            "value":""
+        }
+    ],
+    "python.testing.pytestEnabled": true,
+}
